@@ -20,11 +20,11 @@ async function getPosts() {
             </div>`;
         
     } catch (error) {
-        console.log(error)
-        document.querySelector('.alert').innerHTML = showAlertTouser(
-            'error',
-            'danger'
-            );
+        // console.log(error)
+        // document.querySelector('.alert').innerHTML = showAlertTouser(
+        //     'error',
+        //     'danger'
+        //     );
     }
 
 };  
