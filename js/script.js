@@ -1,6 +1,6 @@
 async function getPosts() {
     try { 
-        const response = await fetch('http://cms.ntoni.tech/wp-json/wp/v2/posts');
+        const response = await fetch('https://cms.ntoni.tech/wp-json/wp/v2/posts?');
         const jsonObject = await response.json();
         console.log(jsonObject);
         const jsonArray = jsonObject;
