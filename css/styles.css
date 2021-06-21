@@ -1,0 +1,114 @@
+main {
+  height: auto;
+  width: 1200px;
+  justify-content: center;
+  height: auto;
+  margin: auto;
+}
+
+body {
+  margin: -5px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin: 0%;
+  background-color: burlywood;
+  justify-content: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+
+header h2 {
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+}
+
+header h3 {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cardimg {
+  width: 280px;
+  height: 280px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.card {
+  width: 280px;
+  height: 625px;
+  border: burlywood solid 3px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+}
+
+.card h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Open Sans", sans-serif;
+  margin: 15px;
+}
+
+.readmore_btn {
+  width: 125px;
+  height: 35px;
+  border: burlywood 3px solid;
+  background-color: burlywood;
+  text-align: center;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.3rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.postImg {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post p {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  height: 50px;
+}
