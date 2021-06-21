@@ -7,7 +7,7 @@ const id = params.get('id');
 async function getPosts() {
     try {
         console.log(id)
-        const response = await fetch('https://cms.ntoni.tech/wp-json/wp/v2/posts?' + id);
+        const response = await fetch('https://cms.ntoni.tech/wp-json/wp/v2/posts/' + id);
         const jsonResult = await response.json();
         console.log (jsonResult);
 
@@ -29,3 +29,4 @@ async function getPosts() {
 
 };  
 getPosts();
+
