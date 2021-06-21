@@ -83,6 +83,20 @@ header h3 {
   margin-top: 15px;
 }
 
+.readmore_btn:hover {
+  width: 125px;
+  height: 35px;
+  color: burlywood;
+  border: burlywood 3px double;
+  background-color: white;
+  text-align: center;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+.readmore_btn a:hover {
+  color: burlywood;
+}
+
 .card a {
   text-decoration: none;
   color: white;
