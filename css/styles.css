@@ -197,7 +197,7 @@ footer {
     height: 50px;
     width: 160px;
     position: absolute;
-    display: flex;
+    display: inline-flex;
     margin-top: 10px;
     justify-content: center;
   }
@@ -218,7 +218,7 @@ footer {
     /* margin-left: 15px; */
     width: 80%;
     text-align: left;
-    display: inline-flex;
+    display: flex;
     margin: auto;
   }
 
