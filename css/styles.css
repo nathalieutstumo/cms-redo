@@ -190,7 +190,8 @@ footer {
   }
 
   .details__header {
-    height: 80px;
+    height: 100px;
+    display: inline-flex;
   }
 
   .details__header .logo {
